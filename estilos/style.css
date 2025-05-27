@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fauna+One&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Outfit';
+}
+:root {
+  --cor1: rgba(12, 12, 12, 0.1); /* Sombra leve */
+  --cor2: rgba(12, 12, 12, 0.3); /* Sombra média */
+  --cor3: rgba(0, 0, 0, 0.6);     /* Sombra forte */
+  --cor4: rgba(0, 0, 0, 0.8);     /* Sombra interna (inset) */
+  --cor5: rgba(30, 30, 30, 0.4);  /* Sombra difusa */
+}
+
+
+body{
+  background:#0C0C0C;
+  color: white;
+}
+a {
+  -webkit-tap-highlight-color: transparent;
+  /* Safari/Chrome em dispositivos móveis */
+  -webkit-touch-callout: none;
+  /* Remove menu de toque no iOS */
+}
+header{
+  background-color: #1515159C;
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin-bottom:3cm;
+  font-family: 'Poppins';
+}
+header h1{
+  font-size: 24px;
+}
+header h1 span{
+  color: #FF7508;
+}
+.navbar a{
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 5px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  transition: 0.5s ease-out;
+  cursor: pointer;
+}
+.navbar a:hover{
+  background: #FF870069;
+  padding: 6px 15px;
+}
+#span{
+  border: 2px solid #A76300;
+}
+/* header acima*/
+
+p{
+  font-size: 14px;
+font-weight: 400;
+color: #F9F9F9EB;
+}
+.container-1{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  
+}
+.container-img{
+  display: flex;
+  flex-direction: column;
+  border:none;
+  width: 76%;
+  margin: auto;
+  border-radius: 15px;
+}
+.container-img img{
+  
+  border-radius: 15px 15px 0 0;
+}
+#contato{
+  background: #262626;
+  border: 2px solid #FF750857;
+  border-top: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding: 5px;
+  border-radius: 0 0 15px 15px;
+}
+#contato i{
+  background: #FF8700;
+  border-radius: 50%;
+  padding: 5px;
+  font-size: 13px;
+  color:#2E2E2E;
+}
+#contato #insta{
+  font-size: 15px;
+  padding: 5px 7px;
+}
+#contato i:hover{
+  color: white;
+}
+.descricao{
+  background: #121212;
+  width: 100%;
+  padding: 15px;
+  border-radius: 8px;
+  margin: auto;
+  margin: 2cm 0;
+  border: 1px solid #A76300C4;
+}
+.descricao p{
+  text-align: justify;
+}
+.descricao h3{
+  font-size: 19px;
+  font-weight: 700;
+  padding: 10px 0;
+}
+/*.container-1*/
+
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin: 50px 0;
+}
+.cards{
+  background: #121212;
+  border: 1px solid #A76300;
+  box-shadow: inset 0 0 10px 1px #A763004D;
+  border-radius: 10px;
+  padding: 20px;
+  width: 80%;
+}
+.cards h3{
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  padding: 10px 0;
+}
+.cards p{
+  font-weight: 200;
+}
+.job-container{
+  margin: 2cm 0;
+}
+.job-container h2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #FFA300;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+  background: linear-gradient(to right, #FD860024, transparent);
+}
+.jobs{
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  padding: 10px;
+}
+
+.jobs .projeto{
+  background: #121212;
+  border: 1px solid #A76300;
+  border-radius: 10px;
+  padding: 10px;
+  height: 300px;
+  position: relative;
+  transition: 0.5s ease-out;
+}
+.projeto:hover{
+  transform: scale(1.05);
+}
+.projeto a{
+  position: absolute;
+  bottom: 0;
+  left:0;
+  margin: 10px;
+  font-size: 13px;
+  text-decoration: none;
+  color: #EAEAEAD1;
+  padding: 10px;
+  border: 1px solid #FF920073;
+  border-radius: 10px;
+  transition: 0.5s ease-out;
+  cursor: pointer;
+}
+.projeto i{
+  font-size: 13px;
+  margin-right:5px;
+}
+.projeto a:hover{
+  background: #FF9100;
+  color: white;
+  transform: scale(1.05);
+}
+.projeto h4{
+  padding: 10px 0;
+  font-size: 17px;
+}
+#Premium{
+  margin-top: 15px;
+}
+.star{
+  position: absolute;
+  top: 5px;
+  left:10px;
+}
+.star i{
+  font-size: 14px;
+  color: #FFBD21;
+}
+/*container-2*/
+
+footer{
+  background: #1F1F1F;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+footer h1{
+  font-size: 22px;
+}
+footer ul{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+}
+foooter #insta{
+  font-size: 16px;
+}
+.icon{
+  color: #D3D3D3;
+  font-size: 18px;
+}
