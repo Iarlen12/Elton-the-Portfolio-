@@ -12,10 +12,13 @@
 
 <body>
 <header>
+  <div class="logo-header">
+    <img src="images/perfil.jpg" alt="perfil" >
   <h1><span>My</span> portifólio</h1>
+  </div>
   
   <nav class="navbar">
-    <a id="span"  href="#">Github</a>
+    <a id="span"  href="https://github.com/Iarlen12">Github</a>
     <a href="#">Rede Sociais</a>
     <a href="#">Portifólio</a>
   </nav>
@@ -33,7 +36,7 @@
           <i id="insta" class="fa-brands fa-instagram"></i>
     </a>
     <a href="#">
-          <i class="fa-brands fa-youtube"></i>
+<i class="fa-brands fa-github"></i>
     </a>
         </div>
       </div>
@@ -91,6 +94,39 @@
   </div>
   </div>
 </section>
+<section class="contato-section">
+  <h2>Entre em contato comigo</h2>
+
+  <div class="box-contato">
+    <p>
+      <i class="fa-brands fa-whatsapp box-icon"></i>
+      WhatsApp: (55) 9999-9999
+    </p>
+    <p>
+      <i class="fa-solid fa-envelope box-icon"></i>
+      E-mail: Exemple@gmail.com
+    </p>
+  </div>
+
+  <div class="box-paragrafo">
+    <p>Precisa de um serviço? Me envie uma mensagem e terei o maior prazer em ajudar você!</p>
+  </div>
+  <div class="message">
+      <form method="post" autocomplete="on">
+    <label for="name">Nome</label>
+    <input class="input" type="text" name="name" id="name" placeholder="Digite seu nome" required>
+
+    <label for="email">E-mail</label>
+    <input class="input" type="email" name="email" id="email" placeholder="Digite seu e-mail" required>
+
+    <label for="message">Mensagem</label>
+    <textarea name="message" id="For-message" placeholder="Escreva sua mensagem" rows="5" required></textarea>
+
+    <button id="button-message" type="submit">Enviar mensagem</button>
+  </form>
+  </div>
+
+</section>
 </main>
 <footer>
   <h1>Contato</h1>
@@ -105,9 +141,10 @@
       <i id="insta" class="fa-brands fa-instagram icon"></i>
     </a>
     </li>
+    
     <li>
           <a href="#">
-      <i  class="fa-brands fa-youtube icon"></i>
+          <i class="fa-brands fa-github icon"></i>
     </a>
     </li>
   </ul>
