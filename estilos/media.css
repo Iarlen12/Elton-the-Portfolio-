@@ -30,12 +30,13 @@
     flex-direction: row;
     justify-content: center;
     margin:auto;
+    margin-bottom: 10cm;
   }
   .descricao{
     width: 758px;
-    max-height: 400px;
-    margin: 0;
-    
+    height: auto;
+    position: relative;
+    bottom: 130px;
   }
   .descricao p{
     font-size: 16px;
@@ -58,7 +59,10 @@
       gap: 30px;
       padding: 20px;
     }
-      .contato-section{
-        max-width: 640px;
-      }
+    .contato-section{
+      max-width: 765px;
+    }
+footer{
+  margin-top: 4cm;
+}
 }
