@@ -48,14 +48,16 @@
   .card{
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-auto-rows:2fr;
-    flex-direction: row;
-    flex-wrap: wrap;
     gap: 20px;
     padding: 20px;
     max-width: 1200px;
   }
   .cards p{
     font-size: 16px;
+  }
+  .job-container h2{
+    text-align: center;
+    background: linear-gradient(to right, #FD860024, #ff92166f, #FD860024);
   }
     .jobs{
       grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
