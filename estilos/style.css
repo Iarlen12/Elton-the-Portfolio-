@@ -108,10 +108,11 @@ header img{
   color: #FF7508;
 }
 #close{
+  font-size: 13px;
   border-radius: 50%;
-  background: #CD5B00;
+  background: #ff8626c5;
   padding: 2px 5px;
-  border: 2px solid #E3E3E3;
+  border: 2px solid #ffffff;
   transition: 0.15s;
 }
 #close:hover{
@@ -131,12 +132,13 @@ header img{
   flex-direction: column;
 }
 .navbar-mobile a{
-  border-top: 2px solid #A76300C4;
+  font-size: 18px;
+  border-top: 1px solid gray;
   border-radius: 0;
-  padding-bottom: 10px;
+  margin: 10px 0;
 }
 .navbar-mobile a:hover{
-  background: #582E00;
+  color: #FF7508;
   padding: 6px 15px;
 }
 /* header acima*/
@@ -314,20 +316,22 @@ color: #F9F9F9EB;
 
 /*container-2*/
 .contato-section{
-  background: #161616;
-  border: 2px solid #A7630045;
+  border: 2px solid #dc7500;
   border-radius: 15px;
   max-width: 500px;
   margin: 4cm auto;
   padding: 20px;
 }
 .contato-section h2{
-  font-size: 22px;
-  padding: 5px 0;
+  font-size: 25px;
+  margin: 10px 0;
 }
 .box-paragrafo{
   margin: 30px 0;
   max-width: 450px;
+}
+.box-paragrafo p{
+  color: #d5d5d5c9;
 }
 .message{
   margin: auto;
@@ -341,6 +345,7 @@ color: #F9F9F9EB;
 .input{
   background: transparent;
   color:#DDDDDDE6;
+  width: 100%;
   border: 2px solid #C8C8C81A;
   padding: 10px;
   border-radius: 20px;
@@ -355,9 +360,10 @@ color: #F9F9F9EB;
 #For-message{
   background: transparent;
   color:#DDDDDDE6;
+  width: 100%;
   border: 2px solid #C8C8C81A;
   border-radius: 15px;
-  margin: 10px;
+  margin: 10px 0;
   padding: 10px;
   transition: 0.5s ease-out;
   outline: none;
