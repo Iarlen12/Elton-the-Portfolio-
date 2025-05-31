@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="estilos/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link rel="stylesheet" href="estilos/media.css">
-  <title>Meu portifólio</title>
+  <title></title>
 </head>
 
 <body>
@@ -132,24 +132,27 @@
         <p>Precisa de um serviço? Me envie uma mensagem e terei o maior prazer em ajudar você!</p>
       </div>
       <div class="message ">
-        <form action="https://formsubmit.co/iarlems36@gmail.com" method="post" autocomplete="on">
-          <label for="name">Nome</label>
+        <form action="https://formsubmit.co/iarlems36@gmail.com"  method="post" autocomplete="on">
+          <div class="campo">
+                      <label for="name">Nome</label>
           <input class="input" type="text" name="name" id="name" placeholder="Digite seu nome" required>
-            
-                    <input type="hidden" name="_captcha" value="false">
+          </div>
+                             <input type="hidden" name="_captcha" value="false">
                    
                     <input
                     type="hidden" 
                     name="_next"
                     value="sucesso.html"
                     >
-                    
-            
-          <label for="email">E-mail</label>
+            <div class="campo">
+                        <label for="email">E-mail</label>
           <input class="input" type="email" name="email" id="email" placeholder="Digite seu e-mail" required>
-
-          <label for="message">Mensagem</label>
+            </div>
+            
+      <div class="campo">
+              <label for="message">Mensagem</label>
           <textarea name="message" id="For-message" placeholder="Escreva sua mensagem" rows="5" required></textarea>
+      </div>
 
           <a href="sucesso.html" target="blank_">
             <button id="button-message" type="submit">Enviar mensagem</button>
