@@ -31,7 +31,7 @@ a {
   /* Remove menu de toque no iOS */
 }
 header{
-  background-color: #1515159C;
+  background-color: #121212;
   position: sticky;
   top: 0;
   display: flex;
@@ -53,7 +53,7 @@ header h1{
   font-size: 24px;
 }
 header h1 span{
-  color: #FF7508;
+  color:#00c879ce;
 }
 
 header img{
@@ -76,50 +76,27 @@ header img{
   cursor: pointer;
 }
 .navbar a:hover{
-  background: #FF870069;
-  padding: 6px 15px;
+  color: #008a53ce;
 }
 #span{
-  border: 2px solid #A76300;
+  border: 2px solid #00c879ce;
+}
+#span:hover{
+  background: #007e4c6d;
+  color: white;
 }
 /* navbar desktop*/
 .menu-lateral {
   background: #121212;
   width: 100vw;
-  height: 100vh;
+  height: 25vh;
   position: fixed;
-  top: 0;
-  right: -600px;
+  top: 80px;
   z-index: 1000;
   transition: 0.5s;
   opacity: 0;
 }
-.header{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-  margin-bottom: 35px;
-}
-.header h1{
-  font-size: 20px;
-  text-align: center;
-  color: #FF7508;
-}
-#close{
-  font-size: 13px;
-  border-radius: 50%;
-  background: #ff8626c5;
-  padding: 2px 5px;
-  border: 2px solid #ffffff;
-  transition: 0.15s;
-}
-#close:hover{
-  background: #873C00;
-}
 .active{
-  right: 0;
   opacity: 1;
 }
 .menu-mobile i{
@@ -132,14 +109,22 @@ header img{
   flex-direction: column;
 }
 .navbar-mobile a{
-  font-size: 18px;
-  border-top: 1px solid gray;
+  text-align: center;
+  font-size: 15px;
+  border-top: 1px solid #cfcfcf69;
   border-radius: 0;
-  margin: 10px 0;
+  padding: 20px 0;
 }
 .navbar-mobile a:hover{
-  color: #FF7508;
-  padding: 6px 15px;
+  color: #009d5fce;
+}
+.menu-p{
+  text-align: center;
+  margin-top: 30px;
+}
+.menu-p p{
+  color: #00834f;
+  font-weight: 600;
 }
 /* header acima*/
 
@@ -147,6 +132,9 @@ p{
   font-size: 14px;
 font-weight: 400;
 color: #F9F9F9EB;
+}
+span{
+  color: #00db83;
 }
 .container-1{
   display: flex;
@@ -164,13 +152,13 @@ color: #F9F9F9EB;
   margin: auto;
   margin-bottom: 2cm;
   border-radius: 15px;
+  border: 2px solid #007a4abd;
 }
 .container-img img{
-  border-radius: 15px 15px 0 0;
+  border-radius: 13px 13px 0 0;
 }
 #contato{
   background: #0e0e0e;
-  border: 2px solid #FF750857;
   border-top: none;
   display: flex;
   flex-direction: row;
@@ -181,7 +169,7 @@ color: #F9F9F9EB;
   border-radius: 0 0 15px 15px;
 }
 #contato i{
-  background: #FF8700;
+  background: #00804d;
   border-radius: 50%;
   padding: 5px;
   font-size: 13px;
@@ -202,11 +190,12 @@ color: #F9F9F9EB;
   border-radius: 8px;
   margin: 4cm 0 2cm;
   margin: auto;
-  border: 1px solid #A76300C4;
+  border: 1px solid #00c879ce;
   position: relative;
 }
 .descricao p{
   text-align: justify;
+  font-weight: 300;
 }
 .descricao h3{
   font-size: 19px;
@@ -226,7 +215,7 @@ color: #F9F9F9EB;
 }
 .cards{
   background: #121212;
-  border: 1px solid #A76300;
+  border: 1px solid #00c879ce;
   border-radius: 10px;
   padding: 20px;
   position: relative;
@@ -261,10 +250,10 @@ color: #F9F9F9EB;
 .job-container h2 {
   font-size: 20px;
   font-weight: 600;
-  color: #FFA300;
+  color: #00c879ce;
   padding: 10px 15px;
   margin-bottom: 15px;
-  background: linear-gradient(to right, #FD860024, transparent);
+  background: linear-gradient(to right, #005d386d, transparent);
 }
 .jobs{
   display: grid;
@@ -275,10 +264,9 @@ color: #F9F9F9EB;
   padding: 17px;
   margin: auto;
 }
-
 .jobs .projeto{
   background: #121212;
-  border: 1px solid #A76300;
+  border: 1px solid #00c879ce;
   border-radius: 10px;
   padding: 10px;
   transition: 0.5s ease-out;
@@ -306,7 +294,7 @@ color: #F9F9F9EB;
   margin-right:5px;
 }
 .projeto a:hover{
-  background: #FF9100;
+  background: #00834f;
   color: white;
   transform: scale(1.05);
 }
@@ -317,6 +305,7 @@ color: #F9F9F9EB;
 #Premium{
   margin-top: 15px;
 }
+
 .star{
   position: absolute;
   top: 5px;
@@ -331,15 +320,15 @@ color: #F9F9F9EB;
   font-weight: 400;
 }
 #repo a{
-  color: #eeeeeece;
+  color: #00df89;
   font-weight: 200;
 }
 #repo a:hover{
-  color: white;
+  color: #007346;
 }
 /*container-2*/
 .contato-section{
-  border: 2px solid #dc7500;
+  border: 2px solid #00a162;
   border-radius: 15px;
   max-width: 500px;
   margin: 4cm auto;
@@ -378,7 +367,7 @@ color: #F9F9F9EB;
 }
  .input:focus{
   background: #30303080;
-  border: 2px solid #A76300;
+  border: 2px solid #00c879ce;
 }
 #For-message{
   background: transparent;
@@ -393,10 +382,10 @@ color: #F9F9F9EB;
 }
 #For-message:focus{
   background: #2F2F2F5E;
-  border: 2px solid #A76300;
+  border: 2px solid #00c879ce;
 }
 #button-message{
-  background: #FF9904;
+  background: #009d5fce;
   width: 96%;
   color: white;
   border-radius: 5px;
@@ -407,7 +396,7 @@ color: #F9F9F9EB;
   cursor: pointer;
 }
 #button-message:hover{
-  background: #CF7B00;
+  background: #00623c;
   transform: scale(0.95);
 }
 
@@ -460,41 +449,4 @@ foooter #insta{
   100%{
     
   }
-}
-
-
-@property --angle{
-  syntax:"<angle>";
-  initial-value: 0deg;
-  inherits: false;
-}
-.spin-projetos::after, .spin-projetos::before{
-  content: "";
-  background-image: conic-gradient(
-  from var(--angle), #F68100, #7C4100, #6F3A00 70%, #DA7300, #DA7300);
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top:50%;
-  left: 50%;
-  translate: -50% -50%;
-  z-index: -1;
-  padding: 5px;
-  border-radius: 10px;
-  animation: 6s spin-projetos linear infinite;
-}
-.spin-projetos::before{
-  filter: blur(1.5rem);
-  opacity: 0.5;
-}
-@keyframes spin-projetos{
-  
-  from{
-    --angle: 0deg;
-  }
-  
-  to{
-    --angle:360deg;
-  }
-  
 }
