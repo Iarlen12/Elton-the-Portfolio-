@@ -297,7 +297,6 @@ color: #F9F9F9EB;
   text-decoration: none;
   color: #EAEAEAD1;
   padding: 10px;
-  border: 1px solid #FF920073;
   border-radius: 10px;
   transition: 0.5s ease-out;
   cursor: pointer;
@@ -334,7 +333,6 @@ color: #F9F9F9EB;
 #repo a{
   color: #eeeeeece;
   font-weight: 200;
-  text-decoration-color: #FF9100;
 }
 #repo a:hover{
   color: white;
