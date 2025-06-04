@@ -230,8 +230,9 @@ span{
   font-weight: 200;
 }
 .cards h4{
-  margin: 13px 0;
+  margin: 13px -5px;
   font-weight: 500;
+  color: #00ee90;
 }
 .linguagens li{
   list-style: none;
