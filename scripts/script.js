@@ -1,11 +1,11 @@
 function Menu(){
   const menuLateral = document.querySelector('.menu-lateral')
-  const close = document.getElementById('close')
+  const menuIcon = document.querySelector('.menu-mobile')
     menuLateral.classList.add('active')
     
-    if (close) {
-        close.addEventListener('click', () => {
-          menuLateral.classList.remove('active')
+    if (menuIcon) {
+        menuIcon.addEventListener('click', () => {
+          menuLateral.classList.toggle('active')
         })  
     }
    
