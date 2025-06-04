@@ -130,7 +130,8 @@ header img{
 
 p{
   font-size: 14px;
-font-weight: 400;
+font-weight: 300;
+font-weight: 300;
 color: #F9F9F9EB;
 }
 span{
@@ -325,7 +326,7 @@ span{
   font-weight: 200;
 }
 #repo a:hover{
-  color: #007346;
+  color: #54ffbc;
 }
 /*container-2*/
 .contato-section{
