@@ -60,7 +60,7 @@
   }
   .job-container h2{
     text-align: center;
-    background: linear-gradient(to right, #FD860024, #ff92166f, #FD860024);
+    background: linear-gradient(to right, transparent,#005d3839,transparent);
   }
     .jobs{
       grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
