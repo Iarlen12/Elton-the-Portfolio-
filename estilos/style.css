@@ -151,6 +151,16 @@ color: #F9F9F9EB;
 span{
   color: #00db83;
 }
+.titulos{
+  font-family: 'poppins';
+  font-size: 20px;
+  font-weight: 500;
+  color: #d11a00;
+  padding: 10px 15px;
+  margin: 30px 0;
+  text-align: center;
+    background: linear-gradient(to right, transparent,#f91f002c,transparent);
+}
 .container-1{
   display: flex;
   flex-direction: column;
@@ -203,7 +213,6 @@ span{
   width: 90%;
   padding: 15px;
   border-radius: 15px;
-  margin: 4cm 0 2cm;
   margin: auto;
   border: 1px solid #00c879ce;
   position: relative;
@@ -233,8 +242,8 @@ span{
 .Premium-medio span{
   color: #ff8012;
 }
-.container-2{
-  
+.container-2 .titulos{
+  margin-top: 4cm;
 }
 .card{
   max-width:530px;
@@ -279,15 +288,6 @@ span{
 /*cards ACIMA*/
 .job-container{
   margin: 2cm 0;
-}
-.job-container h2 {
-  font-size: 20px;
-  font-weight: 600;
-  color: #d11a00;
-  padding: 10px 15px;
-  margin-bottom: 15px;
-  text-align: center;
-    background: linear-gradient(to right, transparent,#f91f002c,transparent);
 }
 .jobs{
   display: grid;
